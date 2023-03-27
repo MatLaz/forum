@@ -1,0 +1,98 @@
+body {
+    color:white;
+    background:url(img/webb-dark.png) ;
+}
+#wrapper{
+    background:rgb(20,20,20) ;
+    height: 100em;
+    width: 80%;
+    margin:auto;    
+}
+#banner {
+    width: 80%;
+    height: 130px;
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    margin:auto;
+}
+#content {
+    margin:auto;
+    text-align: center;
+}
+textarea{
+    color:white;
+    height: 300px;
+    width: 550px;
+    background-color: rgb(29, 31, 33);
+    border-color:rgb(39, 41, 43);
+}
+::placeholder{
+    color:rgb(170,170,170);
+}
+#content label{
+    display: block;
+    padding:5px;
+    margin-left:-400px;
+}
+input{box-sizing:border-box} 
+
+.input-field{
+    width:500px;
+    height: 50px;
+    background-color:rgb(29, 31, 33) ;
+    border-color:rgb(39, 41, 43);
+    border: 2px solid;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 5px;
+}
+.login{
+    font-family:serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 240px;
+}
+a{
+    color:white;
+}
+a:active{
+    color:rgb(100, 100, 170)
+}
+.util-right{
+    display: flex;
+    flex-direction: row;
+}
+.login header{
+    font-size:large;
+    margin-bottom: 5px;
+}
+.input-field{
+    padding: 5px;
+}
+.login-bottom{
+    display: flex;
+}
+.login-right{
+    margin-left: 250px;
+}
+.submit-button{
+    margin-top: 5px;
+    width:200px;
+    height: 40px;
+    background-color:rgb(29, 31, 33) ;
+    border-color:rgb(39, 41, 43);
+    border: 2px solid;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin-left: 150px;
+}
+.submit{
+    width:200px;
+    height: 40px;
+    background-color:rgb(29, 31, 33) ;
+    border-radius: 5px;
+    color: white;
+}
